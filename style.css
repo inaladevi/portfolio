@@ -504,3 +504,24 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-main);
 }
+.projects-intro { margin: -1rem 0 2.5rem; font-weight: 600; }
+.project-card.flagship .card-content { display: flex; flex-direction: column; height: 100%; }
+.card-kicker { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--primary); margin-bottom: 0.5rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+.tag { font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border: 2px solid var(--text-main); background: var(--bg-main); }
+.project-card.flagship .card-links { margin-top: auto; padding-top: 1.5rem; }
+.more-work { margin-top: 4rem; text-align: center; }
+
+.project-card.flagship { display: flex; flex-direction: column; }
+.project-card.flagship .card-image { flex-shrink: 0; }
+.project-card.flagship .card-content { flex: 1; height: auto; }
+.highlights { margin: 1rem 0 0; padding-left: 1.2rem; font-weight: 600; line-height: 1.6; }
+.highlights li { margin-bottom: 0.4rem; }
+
+button.btn {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: none;
+  cursor: pointer;
+}
